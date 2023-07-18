@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Desafio_OO
+namespace Alunos
 {
-    public class Pessoa
+    public class Pessoa 
     {
         public Pessoa() { } // construtor pois tem mesmo nome da classe
 
