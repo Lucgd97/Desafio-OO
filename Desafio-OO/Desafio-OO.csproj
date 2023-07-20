@@ -6,4 +6,8 @@
     <RootNamespace>Desafio_OO</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca\Biblioteca.csproj" />
+  </ItemGroup>
+
 </Project>
