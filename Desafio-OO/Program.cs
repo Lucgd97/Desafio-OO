@@ -10,8 +10,12 @@ namespace Desafio_OO
     {
         static void Main(string[] args)
         {
-            var empresa = new PJuridica();
-            empresa.Nome = Console.ReadLine();
+            //var empresa = new PJuridica();
+            //empresa.Nome = Console.ReadLine();
+
+            PFisica usuario = new PFisica("Lucas");
+            usuario.NomePersonalizado();
+            Console.WriteLine(usuario.Nome);
             
         }
     }

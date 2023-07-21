@@ -3,3 +3,15 @@ C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio
 C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\obj\Debug\netcoreapp3.1\Desafio-OO.AssemblyInfoInputs.cache
 C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\obj\Debug\netcoreapp3.1\Desafio-OO.AssemblyInfo.cs
 C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\obj\Debug\netcoreapp3.1\Desafio-OO.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\bin\Debug\netcoreapp3.1\Desafio-OO.exe
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\bin\Debug\netcoreapp3.1\Desafio-OO.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\bin\Debug\netcoreapp3.1\Desafio-OO.runtimeconfig.json
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\bin\Debug\netcoreapp3.1\Desafio-OO.runtimeconfig.dev.json
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\bin\Debug\netcoreapp3.1\Desafio-OO.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\bin\Debug\netcoreapp3.1\Desafio-OO.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\bin\Debug\netcoreapp3.1\Biblioteca.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\bin\Debug\netcoreapp3.1\Biblioteca.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\obj\Debug\netcoreapp3.1\Desafio-OO.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\obj\Debug\netcoreapp3.1\Desafio-OO.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\obj\Debug\netcoreapp3.1\Desafio-OO.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\Alura\C# Danilo\Desafio de O.O\Desafio-OO\obj\Debug\netcoreapp3.1\Desafio-OO.genruntimeconfig.cache
