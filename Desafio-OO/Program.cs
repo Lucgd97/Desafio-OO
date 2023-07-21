@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using Biblioteca;
+using Desafio_OO.Aula_5;
 
 namespace Desafio_OO
 {
@@ -9,6 +10,8 @@ namespace Desafio_OO
     {
         static void Main(string[] args)
         {
+            var empresa = new PJuridica();
+            empresa.Nome = Console.ReadLine();
             
         }
     }

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Desafio_OO.Aula_5
 {
-    internal class PJuridica
+    internal class PJuridica : Pessoa 
     {
-        public int Cnpj { get; set; }
+        public string Cnpj { get; set; }
         public string NomeFantasia { get; set; }
     }
 }
