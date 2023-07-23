@@ -24,5 +24,22 @@ namespace Desafio_OO.Aula_5
             return $"{base.NomePersonalizado()} - teste";
         }
 
+        public static List<PFisica> BancoEmMemoriaDePessoasFisicas { get; set; }
+        
+        public static List<PFisica> Todas()
+        {
+            return PFisica.BancoEmMemoriaDePessoasFisicas;
+        }
+
+        public static void SalvarInstancia(PFisica obj)
+        {
+            PFisica.BancoEmMemoriaDePessoasFisicas.Add(obj);
+        }
+
+        public static List<PFisica> BuscarPorNome(string nome)
+        {
+            return PFisica.BancoEmMemoriaDePessoasFisicas.Find(i => i.Nome == nome);
+        }
+
     }
 }
