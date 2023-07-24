@@ -9,13 +9,30 @@ namespace Desafio_OO
     internal class Program
     {
         static void Main(string[] args)
-        {
-            //var empresa = new PJuridica();
-            //empresa.Nome = Console.ReadLine();
+        {           
 
             PFisica usuario = new PFisica("Lucas");
-            usuario.NomePersonalizado();
-            Console.WriteLine(usuario.Nome);
+            Console.WriteLine(usuario.NomePersonalizado());
+            PFisica.SalvarInstancia(usuario);
+
+            new PFisica("Camila").Salvar();
+            new PFisica("Bruno").Salvar();
+            new PFisica("Isabela").Salvar();
+
+            // refatorando com o metodo salvar() - aula 7 deixando o codigo persistente = mais inteligente
+            //PFisica usuario1 = new PFisica("Camila");
+            //PFisica usuario2 = new PFisica("Bruno");
+            //PFisica usuario3 = new PFisica("Isabela"); 
+            //PFisica.SalvarInstancia(usuario1);
+            //PFisica.SalvarInstancia(usuario2);
+            //PFisica.SalvarInstancia(usuario3);
+
+
+            var lista = PFisica.Todas();
+            foreach (var pessoa in lista)
+            {
+                Console.WriteLine(pessoa.Nome);
+            }            
             
         }
     }
@@ -65,3 +82,9 @@ namespace Desafio_OO
 //var livro = new Livro();
 //livro.Nome = "Geracao de Valor";
 //livro.Versao = "0.01";
+
+//aula 5 e 6
+//var empresa = new PJuridica();
+//empresa.Nome = Console.ReadLine();
+//usuario.NomePersonalizado();
+//Console.WriteLine(usuario.Nome);

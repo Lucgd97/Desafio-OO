@@ -11,6 +11,13 @@ namespace Desafio_OO.Aula_5
             this.Nome = nome;
             this.Nome = this.NomePersonalizado();
         }   
+
+        public void Salvar()
+        {
+            //PFisica.BancoEmMemoriaDePessoasFisicas.Add(this); refatorando
+            PFisica.SalvarInstancia(this);
+        }
+
         public string Cpf { get; set; }
         public string Rg { get; set; }
 
@@ -24,7 +31,7 @@ namespace Desafio_OO.Aula_5
             return $"{base.NomePersonalizado()} - teste";
         }
 
-        public static List<PFisica> BancoEmMemoriaDePessoasFisicas { get; set; }
+        public static List<PFisica> BancoEmMemoriaDePessoasFisicas = new List<PFisica>();
         
         public static List<PFisica> Todas()
         {
@@ -38,7 +45,16 @@ namespace Desafio_OO.Aula_5
 
         public static List<PFisica> BuscarPorNome(string nome)
         {
-            return PFisica.BancoEmMemoriaDePessoasFisicas.Find(i => i.Nome == nome);
+            var novaLista = new List<PFisica>();
+            foreach(var instan in PFisica.BancoEmMemoriaDePessoasFisicas) 
+            {
+                if (instan.Nome.Contains(nome))
+                {
+                    novaLista.Add(instan);
+                }
+            }
+
+            return novaLista;
         }
 
     }
