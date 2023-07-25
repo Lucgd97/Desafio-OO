@@ -8,5 +8,20 @@ namespace Desafio_OO.Aula_5
     {
         public string Cnpj { get; set; }
         public string NomeFantasia { get; set; }
+
+        public override void Busca()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Excluir()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Salvar()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

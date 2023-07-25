@@ -12,7 +12,7 @@ namespace Desafio_OO.Aula_5
             this.Nome = this.NomePersonalizado();
         }   
 
-        public void Salvar()
+        public override void Salvar()
         {
             //PFisica.BancoEmMemoriaDePessoasFisicas.Add(this); refatorando
             PFisica.SalvarInstancia(this);
@@ -57,5 +57,14 @@ namespace Desafio_OO.Aula_5
             return novaLista;
         }
 
+        public override void Busca()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Excluir()
+        {
+            throw new NotImplementedException();
+        } 
     }
 }

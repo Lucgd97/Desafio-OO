@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using Biblioteca;
 using Desafio_OO.Aula_5;
+using Desafio_OO.Aula_8;
 
 namespace Desafio_OO
 {
@@ -13,7 +14,9 @@ namespace Desafio_OO
 
             PFisica usuario = new PFisica("Lucas");
             Console.WriteLine(usuario.NomePersonalizado());
-            PFisica.SalvarInstancia(usuario);
+
+            Servico.Salvar(usuario);
+            //PFisica.SalvarInstancia(usuario);
 
             new PFisica("Camila").Salvar();
             new PFisica("Bruno").Salvar();
